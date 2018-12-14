@@ -50,31 +50,33 @@ We'll add a few features to the spec of the job now. If you want to see all the 
 
 We'll add 3 additional specs
 
-1. Completions - declares how many times to run the job. 
-2. Parallelism - declares how many pods can run at the same time
-3. activeDeadlineSeconds - declares how long the job can run
+1. Completions:  declares how many times to run the job. 
+2. Parallelism:  declares how many pods can run at the same time
+3. activeDeadlineSeconds:  declares how long the job can run
 
-    apiVersion: batch/v1
-    kind: Job
+```
+apiVersion: batch/v1
+kind: Job
+metadata:
+  labels:
+    run: j1
+  name: j1
+spec:
+  completions: 10
+  parallelism: 2
+  activeDeadlineSeconds: 15
+  template:
     metadata:
       labels:
         run: j1
-      name: j1
     spec:
-      completions: 10
-      parallelism: 2
-      activeDeadlineSeconds: 15
-      template:
-        metadata:
-          labels:
-            run: j1
-        spec:
-          containers:
-          - command:
-            - printenv
-            image: busybox
-            name: j1
-          restartPolicy: OnFailure
+      containers:
+      - command:
+        - printenv
+        image: busybox
+        name: j1
+      restartPolicy: OnFailure
+```
 
 Since this job is named the same as the previous one you just created, delete it first
 
