@@ -19,7 +19,23 @@ Two hours to pass with a 66% score on roughly 20 questions. For the most part, C
 
 ## My Notes
 
-I have [attached](#) some more introductory notes into this repo for a couple portions of the curriculum. It should be a good starting point. It tries to incorporate general kubectl usage with the core concepts while diving a bit into specific topics. 
+[Tips and tricks for the exam](https://github.com/lucassha/CKAD-resources/blob/master/tipsAndtricks.md). Give this one a readthrough right when you get started.
+
+I have [attached](https://github.com/lucassha/CKAD-resources/tree/master/Curriculum) some more introductory notes into this repo for a couple portions of the curriculum. It should be a good starting point. It tries to incorporate general kubectl usage with the core concepts while diving a bit into specific topics. 
+
+Configuration
+
+* [ConfigMaps](https://github.com/lucassha/CKAD-resources/blob/master/Curriculum/Configuration/configmap.md)
+* [SecurityContexts](https://github.com/lucassha/CKAD-resources/blob/master/Curriculum/Configuration/securitycontext.md)
+* [Resources](https://github.com/lucassha/CKAD-resources/blob/master/Curriculum/Configuration/resources.md)
+* [Secrets](https://github.com/lucassha/CKAD-resources/blob/master/Curriculum/Configuration/secrets.md)
+* [ServiceAccounts](https://github.com/lucassha/CKAD-resources/blob/master/Curriculum/Configuration/serviceaccount.md)
+
+Pod Design
+
+* [Labels, Selectors, and Annotations](https://github.com/lucassha/CKAD-resources/blob/master/Curriculum/Pod%20Design/labelsSelectorsAnnotations.md)
+* [Deployment Rollouts and Rollbacks](https://github.com/lucassha/CKAD-resources/blob/master/Curriculum/Pod%20Design/deployRolloutsRollbacks.md)
+* [Jobs and CronJobs](https://github.com/lucassha/CKAD-resources/blob/master/Curriculum/Pod%20Design/jobsAndCronJobs.md)
 
 ## Can I PR? 
 
