@@ -21,6 +21,10 @@ Two hours to pass with a 66% score on roughly 20 questions. For the most part, C
 
 I have [attached](#) some more introductory notes into this repo for a couple portions of the curriculum. It should be a good starting point. It tries to incorporate general kubectl usage with the core concepts while diving a bit into specific topics. 
 
+## Can I PR? 
+
+Please do.
+
 ## Confidentiality Agreement
 
 [CNCF](https://www.cncf.io/certification/agreement/) has a confidentiality agreement for the CKA and CKAD, so please do not ask about any specific questions on the exam.
