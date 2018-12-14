@@ -21,7 +21,7 @@ Two hours to pass with a 66% score on roughly 20 questions. For the most part, C
 
 [Tips and tricks for the exam](https://github.com/lucassha/CKAD-resources/blob/master/tipsAndtricks.md). Give this one a readthrough right when you get started.
 
-I have [attached](https://github.com/lucassha/CKAD-resources/tree/master/Curriculum) some more introductory notes into this repo for a couple portions of the curriculum. It should be a good starting point. It tries to incorporate general kubectl usage with the core concepts while diving a bit into specific topics. 
+I have [attached](https://github.com/lucassha/CKAD-resources/tree/master/Curriculum) some more introductory notes into this repo for a couple portions of the curriculum. It should be a good starting point. It tries to incorporate general kubectl usage with the core concepts while diving a bit into specific topics. All examples use `kk` instead of `kubectl` 
 
 **Configuration**
 
