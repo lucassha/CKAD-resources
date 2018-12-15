@@ -53,7 +53,7 @@ Need to know about the NodeSelector field in a pod? Check the specs with **expla
 
     kk explain pod.spec.nodeSelector
 
-Note that it is cap sensitive, so you're best bet is to first pipe it through to a case insensitive grep and see if you're in the right spot
+Note that it is cap sensitive, so your best bet is to first pipe it through to a case insensitive grep and see if you're in the right spot
 
     kk explain pod.spec | grep -i nodeselector
 
