@@ -13,7 +13,7 @@ A couple notes about this:
 
 With `kk run` setting `—restart=OnFailure` will turn this into a job. Very easy for a quick yaml job.
 
-The `—command` extension will just add `printenv` under `command` and not `args`. Either should work find, however. In Kubernetes, `command` == shell commands and `args` == arguments passed to the command. Generally, it seems both will work fine though.
+The `—command` extension will just add `printenv` under `command` and not `args`. Either should work fine, however. In Kubernetes, `command` == shell commands and `args` == arguments passed to the command. Generally, it seems both will work fine though.
 
 I'm going to strip the yaml of unnecessary bits, so it's easier to read when we add a couple features.
 
