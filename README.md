@@ -15,6 +15,8 @@ Two hours to pass with a 66% score on roughly 20 questions. For the most part, C
 
 [Udemy - Mumshad Mannambeth](https://www.udemy.com/certified-kubernetes-application-developer/)
 
+[CKAD Practice Questions - Liptan Biswas](https://dev.to/liptanbiswas/ckad-practice-questions-4mpn)
+
 [Katacoda - Many other examples on here. This is the generic k8s link](https://www.katacoda.com/courses/kubernetes)
 
 ## My Notes
