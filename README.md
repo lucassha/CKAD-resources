@@ -2,7 +2,7 @@
 
 ## The rundown
 
-Two hours to pass with a 66% score on roughly 20 questions. For the most part, CKAD is all about efficiency and time management. Questions are not weighted evenly. Exam specifics 
+Two hours to pass with a 66% or more score to attempt 22 questions. For the most part, CKAD is all about efficiency and time management. Questions are not weighted evenly. Exam specifics 
 [here](https://www.cncf.io/certification/cka/faq/).
 
 ## Training Resources
