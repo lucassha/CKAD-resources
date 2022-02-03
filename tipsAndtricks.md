@@ -16,7 +16,7 @@ There's no way you'll have time to type all of these up in the exam, so use a ba
 
 **Deploy yaml**
 
-    kk run d1 --image=nginx --dry-run -o yaml > d1.yaml
+    kk run d1 --image=nginx --dry-run=client -o yaml > d1.yaml
 
 **Job yaml**
 
