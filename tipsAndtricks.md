@@ -12,7 +12,7 @@ There's no way you'll have time to type all of these up in the exam, so use a ba
 
 **Pod yaml**
 
-    kk run p1 --image=nginx --restart=Never --dry-run -o yaml > p1.yaml
+    kk run p1 --image=nginx --restart=Never --dry-run=client -o yaml > p1.yaml
 
 **Deploy yaml**
 
